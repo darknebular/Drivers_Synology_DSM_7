@@ -7,6 +7,7 @@ Choose your arquitecture, and put them in /lib/modules in your NAS.
 To view your arquitecture ([help](https://kb.synology.com/es-es/DSM/tutorial/What_kind_of_CPU_does_my_NAS_have))
 
 Then you must to run via SSH these commands:
+
 `sudo -i`
 
 `/sbin/modprobe usbserial`
