@@ -8,12 +8,19 @@ To view your arquitecture ([help](https://kb.synology.com/es-es/DSM/tutorial/Wha
 
 Then you must to run via SSH these commands:
 `sudo -i`
+
 `/sbin/modprobe usbserial`
+
 `/sbin/modprobe ftdi_sio`
+
 `/sbin/modprobe cdc-acm`
+
 `chmod 777 /dev/ttyUSB0`
+
 `chmod 777 /dev/ttyACM0`
+
 `sudo ./start-usb-drivers.sh`
+
 
 
 
