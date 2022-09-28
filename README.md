@@ -20,7 +20,7 @@ Then you must to run via SSH these commands:
 
 `chmod 777 /dev/ttyACM0`
 
-`sudo ./start-usb-drivers.sh`
+`sudo ./lib/modules/start-usb-drivers.sh`
 
 
 
